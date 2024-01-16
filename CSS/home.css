@@ -1,0 +1,236 @@
+div.bg {
+    background-color: #de833e;
+    width: 1517px;
+    height: 803px;
+    left: 0;
+    top: 90px;
+    position: fixed;
+    z-index: 0;
+}
+
+div.main {
+    width: 1500px;
+    height: 800px;
+    left: 0;
+    top: 90px;
+    position: fixed;
+    font-size: 160px
+    z-index: 1;
+    font-family: sans-serif;
+}
+button.button1 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.button1:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 90px;
+    top: 10px;
+    text-align: center;
+    text-decoration: red underline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+button.button2 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 300px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.button2:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 290px;
+    top: 10px;
+    text-align: center;
+    text-decoration: redunderline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+button.button3 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 500px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.button3:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 490px;
+    top: 10px;
+    text-align: center;
+    text-decoration: red underline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+button.info {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    top: 150px;
+    margin-left: 30000px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.info:hover {
+   background-color: #459ab0;
+    color: white;
+    width: 200px;
+    height: 400px;
+    margin-left: 300px;
+    top: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    z-index: 4;
+}
+button.help {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 700px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.help:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 690px;
+    top: 10px;
+    text-align: center;
+    text-decoration: red underline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+div.header {
+    background-color: #505050;
+    width: 1517px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+}
+div.main p{
+    border: none;
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    overflow: auto;
+}
+div.main h3{
+    border: none;
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: left;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    overflow: auto;
+}
+body {
+    overflow: auto;
+}
+.healthoutput {
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    z-index:6;
+    margin-top: 100px;
+    margin-left: 50px;
+    position:fixed;
+    text-align: center;
+    font-size:55px;
+    font-family:arial;
+    border-radius:10px;
+}
+img.logo {
+    background-color: rgb(1,1,1,0);
+    border: none;
+    color: white;
+    width: 300px;
+    height: 90px;
+    left: 1060px;
+    top: 0px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 14;
+}
+.logo:hover {
+    background-color: rgb(0,0,0,0);
+  color: white;
+    z-index: 15;
+}
