@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="page">
+        <head>
+            <script>
+                //skill values
+                var str=9;
+                var int=11;
+                var wis=13;
+                var con=15;
+                var dex=17;
+                var cha=19;
+                var profbon=0;
+                var initbon=0;
+                //use true/false here for proficiencies 
+                //proficent in  str    int    wis    con    dex    cha
+                var skillprof=[false, true,  false, false, false, false];
+            </script>
+            <link rel="stylesheet" type="text/css" href="../CSS/skills.css">
+            <title>
+            Skills
+                
+            </title>
+            <link rel="icon" type="image/x-icon" href="My files/chaos/dnd/assets/icon.png">
+        </head>
+        <body>
+            <div class="header">
+                <div class="button">
+                    <button class="button1" onclick="window.open('../HTML/home.html', '_self');">
+                        home
+                    </button>
+                    <button class="button2" onclick="window.open('../HTML/features.html', '_self');">
+                        features
+                    </button>
+                    <button class="button3" onclick="window.open('../HTML/items.html', '_self');">
+                        items
+                    </button>
+                    <div id="str" class="str">str</div>
+                    <div id="int" class="int">int</div>
+                    <div id="wis" class="wis">wis</div>
+                    <div id="con" class="con">con</div>
+                    <div id="dex" class="dex">dex</div>
+                    <div id="cha" class="cha">cha</div>
+                    
+                    <div id="strback" class="strback"></div>
+                    <div id="intback" class="intback"></div>
+                    <div id="wisback" class="wisback"></div>
+                    <div id="conback" class="conback"></div>
+                    <div id="dexback" class="dexback"></div>
+                    <div id="chaback" class="chaback"></div>
+                    
+                    <div id="strbon" class="strbon">strbon</div>
+                    <div id="intbon" class="intbon">intbon</div>
+                    <div id="wisbon" class="wisbon">wisbon</div>
+                    <div id="conbon" class="conbon">conbon</div>
+                    <div id="dexbon" class="dexbon">dexbon</div>
+                    <div id="chabon" class="chabon">chabon</div>
+                    
+                    <div id="saving" class="saving">saving</div>
+                    <div  class="savingtitle">Saving Throws</div>
+                </div>
+                <img src="../assets/dndlogo.png" class="logo">
+            </div>
+            <div class="main">
+                <div class="bg"></div>
+                <p id="help">
+                    
+                </p>
+                
+<script>
+
+var strbon=(str-10)/2;
+if(str%2==1){strbon=strbon-.5;}
+var intbon=(int-10)/2;
+if(int%2==1){intbon=intbon-.5;}
+var wisbon=(wis-10)/2;
+if(wis%2==1){wisbon=wisbon-.5;}
+var conbon=(con-10)/2;
+if(con%2==1){conbon=conbon-.5;}
+var dexbon=(dex-10)/2;
+if(dex%2==1){dexbon=dexbon-.5;}
+var chabon=(cha-10)/2;
+if(cha%2==1){chabon=chabon-.5;}
+    
+var save=[];
+if(skillprof[0]==true){save.push(strbon+profbon);}else{save.push(strbon);}
+if(skillprof[1]==true){save.push(intbon+profbon);}else{save.push(intbon);}
+if(skillprof[2]==true){save.push(wisbon+profbon);}else{save.push(wisbon);}
+if(skillprof[3]==true){save.push(conbon+profbon);}else{save.push(conbon);}
+if(skillprof[4]==true){save.push(dexbon+profbon);}else{save.push(dexbon);}
+if(skillprof[5]==true){save.push(chabon+profbon);}else{save.push(chabon);}
+    
+document.getElementById("str").innerHTML = str;
+document.getElementById("int").innerHTML = int;
+document.getElementById("wis").innerHTML = wis;
+document.getElementById("con").innerHTML = con;
+document.getElementById("dex").innerHTML = dex;
+document.getElementById("cha").innerHTML = cha;
+
+document.getElementById("strbon").innerHTML = strbon;
+document.getElementById("intbon").innerHTML = intbon;
+document.getElementById("wisbon").innerHTML = wisbon;
+document.getElementById("conbon").innerHTML = conbon;
+document.getElementById("dexbon").innerHTML = dexbon;
+document.getElementById("chabon").innerHTML = chabon;
+
+document.getElementById("saving").innerHTML = " Str Save: "+save[0]+" Int Save: "+save[1]+" Wis Save: "+save[2]+" Con Save: "+save[3]+" Dex Save: "+save[4]+" Cha Save: "+save[5];
+</script>
+            </div>
+        </body>
+        <script src="../JS/variables.js"></script>
+    </div>
+</html>
