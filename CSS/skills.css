@@ -1,0 +1,391 @@
+div.bg {
+    background-color: #de833e;
+    width: 1517px;
+    height: 803px;
+    left: 0;
+    top: 90px;
+    position: fixed;
+    z-index: 0;
+}
+div.main {
+    width: 1500px;
+    height: 800px;
+    left: 0;
+    top: 90px;
+    position: fixed;
+    font-size: 160px
+    z-index: 1;
+    font-family: sans-serif;
+}
+button.button1 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.button1:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 90px;
+    top: 10px;
+    text-align: center;
+    text-decoration: red underline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+button.button2 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 300px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.button2:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 290px;
+    top: 10px;
+    text-align: center;
+    text-decoration: redunderline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+button.button3 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    margin-left: 500px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 3;
+}
+button.button3:hover {
+   background-color: #459ab0;
+    color: red;
+    width: 120px;
+    height: 70px;
+    margin-left: 490px;
+    top: 10px;
+    text-align: center;
+    text-decoration: red underline;
+    display: inline-block;
+    font-size: 20px;
+    position: fixed;
+    z-index: 4;
+}
+
+div.header {
+    background-color: #505050;
+    width: 1517px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+}
+body {
+    overflow: auto;
+}
+img.logo {
+    background-color: rgb(1,1,1,0);
+    border: none;
+    color: white;
+    width: 300px;
+    height: 90px;
+    left: 1060px;
+    top: 0px;
+    transition-duration: 0.2s;
+    position: fixed;
+    z-index: 14;
+}
+.logo:hover {
+    background-color: rgb(0,0,0,0);
+  color: white;
+    z-index: 15;
+}
+.saving {
+  width: 200px;
+  height: 260px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 365px;
+  margin-left: 63px;
+  position:fixed;
+    text-align: left;
+    font-size:35px;
+    font-family:arial;
+    border-radius:10px;
+}
+.savingtitle {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:5;
+  margin-top: 325px;
+  margin-left: 63px;
+  position:fixed;
+    text-align: center;
+    font-size:30px;
+    font-family:arial;
+    border-radius:10px;
+}
+.str {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:6;
+  margin-top: 150px;
+  margin-left: 125px;
+  position:fixed;
+    text-align: center;
+    font-size:85px;
+    z-index:6;
+}
+.int {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:6;
+  margin-top: 150px;
+  margin-left: 325px;
+    position:fixed;
+    text-align: center;
+font-size:85px;
+}
+.wis {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:6;
+  margin-top: 150px;
+  margin-left: 525px;
+    position:fixed;
+text-align: center;
+    font-size:85px;
+}
+.con {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:6;
+  margin-top: 150px;
+  margin-left: 725px;
+    position:fixed;
+font-size:85px;
+    text-align: center;
+}
+.dex {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:6;
+  margin-top: 150px;
+  margin-left: 925px;
+    position:fixed;
+    text-align: center;
+    font-size:85px;
+}
+.cha {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:6;
+  margin-top: 150px;
+  margin-left: 1125px;
+    position:fixed;
+    text-align: center;
+    font-size:85px;
+}
+
+.strbon {
+  width: 40px;
+  height: 25px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 250px;
+  margin-left: 150px;
+  position:fixed;
+    text-align: center;
+    border:solid;
+    border-width:5px;
+}
+.intbon {
+  width: 40px;
+  height: 25px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 250px;
+  margin-left: 350px;
+  position:fixed;
+    text-align: center;
+    border:solid;
+    border-width:5px;
+}
+.wisbon {
+  width: 40px;
+  height: 25px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 250px;
+  margin-left: 550px;
+  position:fixed;
+    text-align: center;
+    border:solid;
+    border-width:5px;
+}
+.conbon {
+  width: 40px;
+  height: 25px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 250px;
+  margin-left: 750px;
+  position:fixed;
+    text-align: center;
+    border:solid;
+    border-width:5px;
+}
+.dexbon {
+  width: 40px;
+  height: 25px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 250px;
+  margin-left: 950px;
+  position:fixed;
+    text-align: center;
+    border:solid;
+    border-width:5px;
+}
+.chabon {
+border:solid;
+    border-width:5px;
+width: 40px;
+  height: 25px;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index:6;
+  margin-top: 250px;
+  margin-left: 1150px;
+  position:fixed;
+    text-align: center;
+}
+.strback {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:5;
+  margin-top: 145px;
+  margin-left: 120px;
+  position:fixed;
+    text-align: center;
+    font-size:85px;
+}
+.intback {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:5;
+  margin-top: 145px;
+  margin-left: 320px;
+    position:fixed;
+    text-align: center;
+font-size:85px;
+}
+.wisback {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:5;
+  margin-top: 145px;
+  margin-left: 520px;
+    position:fixed;
+text-align: center;
+    font-size:85px;
+}
+.conback {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:5;
+  margin-top: 145px;
+  margin-left: 720px;
+    position:fixed;
+font-size:85px;
+    text-align: center;
+}
+.dexback {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:5;
+  margin-top: 145px;
+  margin-left: 920px;
+    position:fixed;
+    text-align: center;
+    font-size:85px;
+}
+.chaback {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%,30% 100%, 0% 70%, 0% 30%);
+  z-index:5;
+  margin-top: 145px;
+  margin-left: 1120px;
+    position:fixed;
+    text-align: center;
+    font-size:85px;
+}
